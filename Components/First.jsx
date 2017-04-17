@@ -1,6 +1,5 @@
 import React from 'react';
 import Second from './Second'
-
 class First extends React.Component{
     constructor(props) {
         super(props);
@@ -11,7 +10,8 @@ class First extends React.Component{
         return (
             <div>
                 <div>
-                    第一个组件
+                    <h1>第一个组件</h1>
+                    <button type="button" className="btn btn-success">Success</button>
                 </div>
                 <Second />
             </div>
