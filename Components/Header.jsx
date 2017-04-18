@@ -8,7 +8,7 @@ class Header extends React.Component{
     render(){
         return (
           <div>
-            <div className="jumbotron">
+            <div className="jumbotron cc-header">
               <h2>CrazyCooler</h2>
               <p>This App keeps your Mac from burning</p>
               <p><a className="btn btn-primary btn-lg" href="#" role="button">Download Now</a></p>
