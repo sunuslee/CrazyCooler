@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import First from './Components/First';
+import Header from './Components/Header';
 
 ReactDOM.render(
-    <First/>,
+    <Header/>,
     document.getElementById("content")
 );
