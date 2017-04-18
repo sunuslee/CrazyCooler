@@ -21887,21 +21887,26 @@
 	                    'div',
 	                    { className: 'jumbotron cc-header' },
 	                    _react2.default.createElement(
-	                        'h2',
-	                        null,
-	                        'CrazyCooler'
+	                        'div',
+	                        { id: 'header-logo', className: 'text-center' },
+	                        _react2.default.createElement('img', { id: 'header-logo-image', src: 'images/logo.png' }),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'CrazyCooler'
+	                        )
 	                    ),
 	                    _react2.default.createElement(
 	                        'p',
-	                        null,
-	                        'This App keeps your Mac from burning'
+	                        { className: 'text-center', id: 'header-text' },
+	                        'The true app keeps you mac from burning, and reboot!'
 	                    ),
 	                    _react2.default.createElement(
-	                        'p',
-	                        null,
+	                        'div',
+	                        { className: 'text-center' },
 	                        _react2.default.createElement(
 	                            'a',
-	                            { className: 'btn btn-primary btn-lg', href: '#', role: 'button' },
+	                            { className: 'btn btn-primary btn-xs', id: 'download-btn', role: 'button', href: 'https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip' },
 	                            'Download Now'
 	                        )
 	                    )

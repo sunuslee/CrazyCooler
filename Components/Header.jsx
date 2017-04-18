@@ -9,9 +9,14 @@ class Header extends React.Component{
         return (
           <div>
             <div className="jumbotron cc-header">
-              <h2>CrazyCooler</h2>
-              <p>This App keeps your Mac from burning</p>
-              <p><a className="btn btn-primary btn-lg" href="#" role="button">Download Now</a></p>
+              <div id="header-logo" className="text-center">
+                <img id="header-logo-image" src="images/logo.png"/>
+                <h5>CrazyCooler</h5>
+              </div>
+              <p className="text-center" id="header-text">The true app keeps you mac from burning, and reboot!</p>
+              <div className="text-center">
+              <a className="btn btn-primary btn-xs" id="download-btn" role="button" href="https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip">Download Now</a>
+              </div>
             </div>
         </div>
         );
