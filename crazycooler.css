@@ -1,7 +1,6 @@
 .cc-header {
   color: white;
-  height: 61.8%;
-  background: url("images/header-bg.png") no-repeat center center fixed;
+  background: url("images/header-bg.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
