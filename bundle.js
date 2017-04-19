@@ -21838,7 +21838,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            { id: 'header-logo', className: 'text-center' },
-	            _react2.default.createElement('img', { id: 'header-logo-image', src: 'images/bg2.png' })
+	            _react2.default.createElement('img', { id: 'header-logo-image', src: 'images/logo.png' })
 	          ),
 	          _react2.default.createElement(
 	            'p',
