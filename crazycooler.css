@@ -1,10 +1,10 @@
 .cc-header {
   color: white;
   background: url("images/header-bg.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100% contain;
+  -moz-background-size: 100% contain;
+  -o-background-size: 100% contain;
+  background-size: 100% contain;
 }
 
 #header-logo {
@@ -17,13 +17,14 @@
 }
 
 #header-text {
-  font-family: HelveticaNeue-Thin;
+  font-family: HelveticaNeue-Thin,system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 0;
 }
 
 #download-btn {
-  background: #F2473F;
+  background: #00B2EE;
   border: none;
+  font-size: 12px;
 }

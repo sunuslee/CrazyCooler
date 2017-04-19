@@ -15,7 +15,7 @@ class Header extends React.Component{
               </div>
               <p className="text-center" id="header-text">The true app keeps you mac from burning, and reboot!</p>
               <div className="text-center">
-              <a className="btn btn-primary btn-xs" id="download-btn" role="button" href="https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip">Download Now</a>
+              <a className="btn btn-primary btn-xs" id="download-btn" role="button" href="https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip">Download NOW</a>
               </div>
             </div>
         </div>

@@ -21856,7 +21856,7 @@
 	                        _react2.default.createElement(
 	                            'a',
 	                            { className: 'btn btn-primary btn-xs', id: 'download-btn', role: 'button', href: 'https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip' },
-	                            'Download Now'
+	                            'Download NOW'
 	                        )
 	                    )
 	                )
