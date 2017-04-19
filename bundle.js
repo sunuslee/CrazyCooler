@@ -21796,7 +21796,7 @@
 	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
-	    value: true
+	  value: true
 	});
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -21818,53 +21818,52 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	var Header = function (_React$Component) {
-	    _inherits(Header, _React$Component);
+	  _inherits(Header, _React$Component);
 
-	    function Header(props) {
-	        _classCallCheck(this, Header);
+	  function Header(props) {
+	    _classCallCheck(this, Header);
 
-	        return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this, props));
+	    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this, props));
+	  }
+
+	  _createClass(Header, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'cc-header' },
+	          _react2.default.createElement(
+	            'div',
+	            { id: 'header-logo', className: 'text-center' },
+	            _react2.default.createElement('img', { id: 'header-logo-image', src: 'images/bg2.png' })
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'head-text text-center' },
+	            'The true app keeps you mac from burning, and reboot!'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'text-center' },
+	            _react2.default.createElement(
+	              'button',
+	              { className: 'btn btn-primary btn-lg', id: 'download-btn', role: 'button' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip' },
+	                'Download NOW'
+	              )
+	            )
+	          )
+	        )
+	      );
 	    }
+	  }]);
 
-	    _createClass(Header, [{
-	        key: 'render',
-	        value: function render() {
-	            return _react2.default.createElement(
-	                'div',
-	                null,
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'jumbotron cc-header' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { id: 'header-logo', className: 'text-center' },
-	                        _react2.default.createElement('img', { id: 'header-logo-image', src: 'images/logo.png' }),
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            'CrazyCooler'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'p',
-	                        { className: 'text-center', id: 'header-text' },
-	                        'The true app keeps you mac from burning, and reboot!'
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'text-center' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { className: 'btn btn-primary btn-xs', id: 'download-btn', role: 'button', href: 'https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip' },
-	                            'Download NOW'
-	                        )
-	                    )
-	                )
-	            );
-	        }
-	    }]);
-
-	    return Header;
+	  return Header;
 	}(_react2.default.Component);
 
 	exports.default = Header;

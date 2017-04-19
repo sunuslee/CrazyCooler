@@ -10,8 +10,7 @@ class Header extends React.Component{
           <div>
             <div className="cc-header">
               <div id="header-logo" className="text-center">
-                <img id="header-logo-image" src="images/logo.png"/>
-                <h1>CrazyCooler</h1>
+                <img id="header-logo-image" src="images/bg2.png"/>
               </div>
               <p className="head-text text-center">The true app keeps you mac from burning, and reboot!</p>
               <div className="text-center">
