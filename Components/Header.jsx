@@ -11,7 +11,7 @@ class Header extends React.Component{
             <div className="jumbotron cc-header">
               <div id="header-logo" className="text-center">
                 <img id="header-logo-image" src="images/logo.png"/>
-                <h5>CrazyCooler</h5>
+                <h3>CrazyCooler</h3>
               </div>
               <p className="text-center" id="header-text">The true app keeps you mac from burning, and reboot!</p>
               <div className="text-center">
