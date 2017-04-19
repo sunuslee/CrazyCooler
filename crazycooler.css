@@ -10,28 +10,34 @@
 .cc-header {
   width: 100%;
   color: white;
-  height: 70vh;
+  height: 61.8vh;
   background: url("images/header-bg.png") no-repeat center center;
   background-size: cover;
 }
 
 #header-logo {
-
+  position: relative;
+  top: 76px;
 }
 
 #header-logo-image {
-  width: 200px;
-  height: 200px;
+  width: 128px;
+  height: 128px;
 }
 
 .head-text{
+  position: relative;
+  top:80px;
   font-family: HelveticaNeue-Thin,system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
   color: #ccc;
   letter-spacing: 0;
+
 }
 
 #download-btn {
+  position: relative;
+  top: 92px;
   background: #00B2EE;
   border: none;
   font-size: 20px;
