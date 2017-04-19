@@ -1,8 +1,18 @@
+.body {
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.content .text-center {
+  text-align: center;
+}
 .cc-header {
+  width: 100%;
   color: white;
-  height: 400px;
+  height: 70vh;
   background: url("images/header-bg.png") no-repeat center center;
-  background-size: auto;
+  background-size: cover;
 }
 
 #header-logo {
@@ -10,19 +20,31 @@
 }
 
 #header-logo-image {
-  width: 64px;
-  height: 64px;
+  width: 200px;
+  height: 200px;
 }
 
-#header-text {
+.head-text{
   font-family: HelveticaNeue-Thin,system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  color: #FFFFFF;
+  font-size: 25px;
+  color: #ccc;
   letter-spacing: 0;
 }
 
 #download-btn {
   background: #00B2EE;
   border: none;
-  font-size: 12px;
+  font-size: 20px;
+  width: 200px;
+  height: 60px;
+
+}
+#download-btn a {
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+  color: #fff;
+}
+#download-btn a:hover {
+  text-decoration: none;
 }

@@ -8,14 +8,16 @@ class Header extends React.Component{
     render(){
         return (
           <div>
-            <div className="jumbotron cc-header">
+            <div className="cc-header">
               <div id="header-logo" className="text-center">
                 <img id="header-logo-image" src="images/logo.png"/>
-                <h3>CrazyCooler</h3>
+                <h1>CrazyCooler</h1>
               </div>
-              <p className="text-center" id="header-text">The true app keeps you mac from burning, and reboot!</p>
+              <p className="head-text text-center">The true app keeps you mac from burning, and reboot!</p>
               <div className="text-center">
-              <a className="btn btn-primary btn-xs" id="download-btn" role="button" href="https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip">Download NOW</a>
+              <button className="btn btn-primary btn-lg" id="download-btn" role="button">
+                <a href="https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip">Download NOW</a>
+              </button>
               </div>
             </div>
         </div>
