@@ -37,18 +37,13 @@
 
 #download-btn {
   position: relative;
-  top: 92px;
+  top: 120px;
   background: #00B2EE;
   border: none;
-  font-size: 20px;
-  width: 200px;
-  height: 60px;
 
 }
 #download-btn a {
   width: 200px;
-  height: 60px;
-  line-height: 60px;
   text-decoration: none;
   color: #fff;
 }
