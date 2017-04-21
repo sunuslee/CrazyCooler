@@ -13,7 +13,7 @@ class Header extends React.Component{
                 <img id="header-logo-image" src="images/logo.png"/>
                 <h3>CrazyCooler</h3>
               </div>
-              <p className="head-text text-center">The true app keeps you mac from burning, and reboot!</p>
+              <p className="head-text text-center">The true app keeps your Mac from burning, and reboot!</p>
               <div className="text-center">
               <button className="btn btn-primary btn-lg" id="download-btn" role="button">
                 <a href="https://github.com/sunuslee/CrazyCooler/releases/download/200/CrazyCooler-v200.app.zip">Download NOW</a>

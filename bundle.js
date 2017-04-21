@@ -21848,7 +21848,7 @@
 	          _react2.default.createElement(
 	            'p',
 	            { className: 'head-text text-center' },
-	            'The true app keeps you mac from burning, and reboot!'
+	            'The true app keeps your Mac from burning, and reboot!'
 	          ),
 	          _react2.default.createElement(
 	            'div',
