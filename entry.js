@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Components/Header';
+import Main from './Components/Main';
+
 
 ReactDOM.render(
-    <Header/>,
+    <Main />,
     document.getElementById("content")
 );

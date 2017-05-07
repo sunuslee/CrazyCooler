@@ -1,5 +1,4 @@
 import React from 'react';
-import Second from './Second'
 class Header extends React.Component{
     constructor(props) {
         super(props);

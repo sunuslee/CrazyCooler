@@ -10,9 +10,18 @@
 .cc-header {
   width: 100%;
   color: white;
-  height: 61.8vh;
+  height: 480px;
   background: url("images/header-bg.png") no-repeat center center;
   background-size: cover;
+}
+
+.body-sidebar {
+  background-color: gray;
+  height:  1024px;  
+}
+
+#main-body {
+  height:  1024px;
 }
 
 #header-logo {
